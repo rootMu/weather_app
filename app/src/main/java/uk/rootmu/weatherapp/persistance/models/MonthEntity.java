@@ -1,5 +1,6 @@
 package uk.rootmu.weatherapp.persistance.models;
 
+import androidx.annotation.NonNull;
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.ForeignKey;
@@ -18,4 +19,14 @@ public class MonthEntity {
     public long cityId;
     public String name;
     public float temperature;
+
+    @NonNull
+    @Override
+    public String toString() {
+        return name;
+    }
+
+    public double getTemperature() {
+        return temperature;
+    }
 }

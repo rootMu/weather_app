@@ -16,5 +16,5 @@ public interface MonthDao {
     void insertAllMonths(List<MonthEntity> months);
 
     @Query("SELECT * FROM MonthEntity WHERE cityId = :cityId")
-    LiveData<List<MonthEntity>> getMonthsForCity(long cityId);
+    List<MonthEntity> getMonthsForCity(long cityId);
 }

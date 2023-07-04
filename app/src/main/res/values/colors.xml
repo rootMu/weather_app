@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="pink_rose">#F25A85</color>
+    <color name="cerulean">#00A6EB</color>
+
+    <color name="colorError">@color/pink_rose</color>
+    <color name="colorOnPrimary">@color/black</color>
+    <color name="colorOnSecondary">@color/white</color>
+    <color name="colorSecondary">@color/cerulean</color>
+    <color name="shadow">#404040</color>
+    <color name="shadow_lightest">#99A0AA</color>
+
+</resources>
